@@ -7,4 +7,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD ["pytest", "tests/", "-v", "--tb=short", "--json-report", "--json-report-file=test_results.json"]
+CMD ["pytest", "tests/", "-v", "--tb=short"]
